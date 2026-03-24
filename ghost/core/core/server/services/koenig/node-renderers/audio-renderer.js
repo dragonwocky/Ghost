@@ -33,6 +33,7 @@ function frontendTemplate(node, document, thumbnailCls, emptyThumbnailCls) {
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svg.setAttribute('width', '24');
     svg.setAttribute('height', '24');
+    svg.setAttribute('viewBox', '0 0 24 24');
     svg.setAttribute('fill', 'none');
     const path1 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     path1.setAttribute('fill-rule', 'evenodd');
